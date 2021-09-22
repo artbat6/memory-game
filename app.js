@@ -107,8 +107,8 @@ function checkForMatch() {
       cards[optionTwoId].removeEventListener('click', flipCard)
       cardsWon.push(cardsChosen)
     } else {
-      cards[optionOneId].setAttribute('src', 'images/blank.png')
-      cards[optionTwoId].setAttribute('src', 'images/blank.png')
+      cards[optionOneId].setAttribute('src', 'images/dot.png')
+      cards[optionTwoId].setAttribute('src', 'images/dot.png')
       alert('Sorry, try again')
     }
     cardsChosen = []
