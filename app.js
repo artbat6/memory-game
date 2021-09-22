@@ -90,18 +90,26 @@ function createBoard() {
 }
 // check for matches
 function checkForMatch() {
-    var cards = document.querySelectorAll('img')
+    const cards = document.querySelectorAll('img')
     const optionOneId = cardsChosenId[0]
     const optionTwoId = cardsChosenId[1]
-    if (cardsChosen[0] === cardsChosen[1]) {
-        alert('You found a match')
-        cards[optionOneId].setAttribute('src', 'images/white.png')
-        cards[optionTwoId].setAttribute('src', 'images/white.png')
-        cardsWon.push(cardsChosen)
+    
+    if(optionOneId == optionTwoId) {
+      cards[optionOneId].setAttribute('src', 'images/dot.png')
+      cards[optionTwoId].setAttribute('src', 'images/dot.png')
+      alert('You have clicked the same image!')
+    }
+    else if (cardsChosen[0] === cardsChosen[1]) {
+      alert('You found a match')
+      cards[optionOneId].setAttribute('src', 'images/white.png')
+      cards[optionTwoId].setAttribute('src', 'images/white.png')
+      cards[optionOneId].removeEventListener('click', flipCard)
+      cards[optionTwoId].removeEventListener('click', flipCard)
+      cardsWon.push(cardsChosen)
     } else {
-        cards[optionOneId].setAttribute('src', 'images/dot.png')
-        cards[optionTwoId].setAttribute('src', 'images/dot.png')
-        alert('Sorry, try again!')
+      cards[optionOneId].setAttribute('src', 'images/blank.png')
+      cards[optionTwoId].setAttribute('src', 'images/blank.png')
+      alert('Sorry, try again')
     }
     cardsChosen = []
     cardsChosenId = []
