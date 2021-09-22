@@ -81,10 +81,10 @@ var cardsWon = []
 
 function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
-        var card = document.createElement('img')
+        const card = document.createElement('img')
         card.setAttribute('src', 'images/dot.png')
         card.setAttribute('data-id', i)
-        card.addEventListener('click', flipcard)
+        card.addEventListener('click', flipCard)
         grid.appendChild(card)
     }
 }
