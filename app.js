@@ -251,6 +251,14 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'cookie',
             img: 'images/cookie.png'
         },
+        {
+            name: 'earth',
+            img: 'images/earth.png'
+        },
+        {
+            name: 'earth',
+            img: 'images/earth.png'
+        },
     ]
 
 cardArray.sort(() => 0.5 - Math.random())
