@@ -30,7 +30,11 @@ body {
 .grid {
     display: flex;
     flex-wrap: wrap;
-    height: 800px;
-    width: 800px;
+    height: 600px;
+    width: 600px;
+}
+
+img {
+    width: 70px;
 }
 
