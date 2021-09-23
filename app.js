@@ -70,6 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 cardArray.sort(() => 0.5 - Math.random())
 
+// grabbing .grid div and result
 
 const grid = document.querySelector('.grid')
 const resultDisplay = document.querySelector('#result')
@@ -89,6 +90,7 @@ function createBoard() {
     }
 }
 // check for matches
+
 function checkForMatch() {
     const cards = document.querySelectorAll('img')
     const optionOneId = cardsChosenId[0]
@@ -100,7 +102,7 @@ function checkForMatch() {
       alert('You have clicked the same image!')
     }
     else if (cardsChosen[0] === cardsChosen[1]) {
-      alert('You found a match')
+    //   alert('You found a match')
       cards[optionOneId].setAttribute('src', 'images/pink.png')
       cards[optionTwoId].setAttribute('src', 'images/pink.png')
       cards[optionOneId].removeEventListener('click', flipCard)
@@ -115,7 +117,7 @@ function checkForMatch() {
     cardsChosenId = []
     resultDisplay.textContent = cardsWon.length
     if (cardsWon.length === cardArray.length/2) {
-        resultDisplay.textContent = 'Congratulations!  You found them all!'
+        resultDisplay.textContent = 'WOW!'
     }
 }
 
