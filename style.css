@@ -58,13 +58,21 @@ img {
 
   @media only screen and (max-width: 425px) {
     .grid {
-        width:300px;
-        height: 320px;
+        width:304px;
+        height: 304px;
         object-fit: cover;
     
     }
 
     img {
-        width: 50px;
+        width: 38px;
+    }
+
+    .title {
+        font-size: 9vw;
+    }
+
+    .number {
+        font-size: 4vw;
     }
   }
