@@ -2,6 +2,9 @@ body {
     background-color: black;
 }
 
+.title {
+    font-size: 4.5vw;
+}
 
 .game {
     color: white;
@@ -13,7 +16,7 @@ body {
 }
 
 .number {
-    color: rgb(255, 171, 185);
+    color: rgb(252, 134, 189);
 }
 
 .grid {
