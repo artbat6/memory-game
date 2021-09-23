@@ -67,6 +67,190 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'spider',
             img: 'images/spider.png'
         },
+        {
+            name: 'avocado',
+            img: 'images/avocado.png'
+        },
+        {
+            name: 'avocado',
+            img: 'images/avocado.png'
+        },
+        {
+            name: 'bee',
+            img: 'images/bee.png'
+        },
+        {
+            name: 'bee',
+            img: 'images/bee.png'
+        },
+        {
+            name: 'brain',
+            img: 'images/brain.png'
+        },
+        {
+            name: 'brain',
+            img: 'images/brain.png'
+        },
+        {
+            name: 'burger',
+            img: 'images/burger.png'
+        },
+        {
+            name: 'burger',
+            img: 'images/burger.png'
+        },
+        {
+            name: 'cherries',
+            img: 'images/cherries.png'
+        },
+        {
+            name: 'cherries',
+            img: 'images/cherries.png'
+        },
+        {
+            name: 'chick',
+            img: 'images/chick.png'
+        },
+        {
+            name: 'chick',
+            img: 'images/chick.png'
+        },
+        {
+            name: 'clover',
+            img: 'images/clover.png'
+        },
+        {
+            name: 'clover',
+            img: 'images/clover.png'
+        },
+        {
+            name: 'cupcake',
+            img: 'images/cupcake.png'
+        },
+        {
+            name: 'cupcake',
+            img: 'images/cupcake.png'
+        },
+        {
+            name: 'eye',
+            img: 'images/eye.png'
+        },
+        {
+            name: 'eye',
+            img: 'images/eye.png'
+        },
+        {
+            name: 'fire',
+            img: 'images/fire.png'
+        },
+        {
+            name: 'fire',
+            img: 'images/fire.png'
+        },
+        {
+            name: 'flamingo',
+            img: 'images/flamingo.png'
+        },
+        {
+            name: 'flamingo',
+            img: 'images/flamingo.png'
+        },
+        {
+            name: 'flower',
+            img: 'images/flower.png'
+        },
+        {
+            name: 'flower',
+            img: 'images/flower.png'
+        },
+        {
+            name: 'horse',
+            img: 'images/horse.png'
+        },
+        {
+            name: 'horse',
+            img: 'images/horse.png'
+        },
+        {
+            name: 'hotdog',
+            img: 'images/hotdog.png'
+        },
+        {
+            name: 'hotdog',
+            img: 'images/hotdog.png'
+        },
+        {
+            name: 'lobster',
+            img: 'images/lobster.png'
+        },
+        {
+            name: 'lobster',
+            img: 'images/lobster.png'
+        },
+        {
+            name: 'monkey',
+            img: 'images/monkey.png'
+        },
+        {
+            name: 'monkey',
+            img: 'images/monkey.png'
+        },
+        {
+            name: 'popcorn',
+            img: 'images/popcorn.png'
+        },
+        {
+            name: 'popcorn',
+            img: 'images/popcorn.png'
+        },
+        {
+            name: 'pretzel',
+            img: 'images/pretzel.png'
+        },
+        {
+            name: 'pretzel',
+            img: 'images/pretzel.png'
+        },
+        {
+            name: 'ring',
+            img: 'images/ring.png'
+        },
+        {
+            name: 'ring',
+            img: 'images/ring.png'
+        },
+        {
+            name: 'star',
+            img: 'images/star.png'
+        },
+        {
+            name: 'star',
+            img: 'images/star.png'
+        },
+        {
+            name: 'apple',
+            img: 'images/apple.png'
+        },
+        {
+            name: 'apple',
+            img: 'images/apple.png'
+        },
+        {
+            name: 'cake',
+            img: 'images/cake.png'
+        },
+        {
+            name: 'cake',
+            img: 'images/cake.png'
+        },
+        {
+            name: 'cookie',
+            img: 'images/cookie.png'
+        },
+        {
+            name: 'cookie',
+            img: 'images/cookie.png'
+        },
     ]
 
 cardArray.sort(() => 0.5 - Math.random())
