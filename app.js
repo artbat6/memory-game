@@ -109,13 +109,13 @@ function checkForMatch() {
     } else {
       cards[optionOneId].setAttribute('src', 'images/dot.png')
       cards[optionTwoId].setAttribute('src', 'images/dot.png')
-      alert('Sorry, try again')
+    //   alert('Sorry, try again')
     }
     cardsChosen = []
     cardsChosenId = []
     resultDisplay.textContent = cardsWon.length
     if (cardsWon.length === cardArray.length/2) {
-        resultDisplay.textContent = 'Congratulations !  You found them all!'
+        resultDisplay.textContent = 'Congratulations!  You found them all!'
     }
 }
 
