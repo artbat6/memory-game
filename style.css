@@ -6,6 +6,10 @@
 
 body {
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .title {
@@ -38,3 +42,29 @@ img {
     width: 70px;
 }
 
+@media only screen and (max-width: 600px) {
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 400px;
+        width: 400px;
+    }
+
+    img {
+        width: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .grid {
+        width:300px;
+        height: 320px;
+        object-fit: cover;
+    
+    }
+
+    img {
+        width: 50px;
+    }
+  }
