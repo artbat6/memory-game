@@ -34,8 +34,8 @@ body {
 .grid {
     display: flex;
     flex-wrap: wrap;
-    height: 600px;
-    width: 600px;
+    height: 560px;
+    width: 560px;
 }
 
 img {
@@ -61,7 +61,6 @@ img {
         width:304px;
         height: 304px;
         object-fit: cover;
-    
     }
 
     img {
