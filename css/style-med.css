@@ -54,29 +54,34 @@ img {
     width: 100px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
     .grid {
+        width:90%;
+        height: 90%;
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
-        height: 400px;
-        width: 400px;
+        /* align-items: center; */
+        object-fit: cover;
+        justify-content: center;
+        height: 480px;
+        width: 480px;
     }
 
     img {
-        width: 50px;
+        width: 16%;
     }
   }
 
-  @media only screen and (max-width: 425px) {
+  @media only screen and (max-width: 500px) {
     .grid {
-        width:304px;
-        height: 304px;
+        width:90%;
+        height: 90%;
         object-fit: cover;
+        justify-content: center;
     }
 
     img {
-        width: 38px;
+        width: 70px;
     }
 
     .title {
@@ -85,5 +90,26 @@ img {
 
     .number {
         font-size: 4vw;
+    }
+  }
+
+  @media only screen and (max-width: 475px) {
+    
+    img {
+        width: 65px;
+    }
+
+  }
+  @media only screen and (max-width: 440px) {
+    
+    img {
+        width: 55px;
+    }
+  }
+
+  @media only screen and (max-width: 440px) {
+    
+    img {
+        width: 16%;
     }
   }
