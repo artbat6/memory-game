@@ -36,7 +36,15 @@ body {
 a {
     text-decoration: none;
     color: white;
+    margin-top: 15px;
 }
+
+a:hover {
+    transition: color .5s;
+    color: rgb(252, 134, 189);
+}
+
+
 ul {
     margin-top: 20px;;
 }
