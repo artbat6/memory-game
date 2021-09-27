@@ -60,23 +60,24 @@ img {
         flex-wrap: wrap;
         align-items: center;
         height: 400px;
-        width: 400px;
+        width: 600px;
     }
 
     img {
-        width: 50px;
+        width: 200px;
     }
   }
 
   @media only screen and (max-width: 425px) {
     .grid {
-        width:304px;
-        height: 304px;
+        width:90%;
+        height: 90%;
         object-fit: cover;
+        justify-content: center;
     }
 
     img {
-        width: 38px;
+        width: 80px;
     }
 
     .title {
