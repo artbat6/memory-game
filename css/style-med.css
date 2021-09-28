@@ -26,6 +26,7 @@ body {
     align-items: center;
     padding: auto;
     position: fixed;
+    width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -61,11 +62,10 @@ img {
 
 @media only screen and (max-width: 620px) {
     .grid {
-        width:90%;
-        height: 90%;
+        /* width:90%;
+        height: 90%; */
         display: flex;
         flex-wrap: wrap;
-        /* align-items: center; */
         object-fit: cover;
         justify-content: center;
         height: 480px;
@@ -79,14 +79,13 @@ img {
 
   @media only screen and (max-width: 500px) {
     .grid {
-        width:90%;
-        height: 90%;
-        object-fit: cover;
-        justify-content: center;
+        width:80%;
+        height: 70%;
+
     }
 
     img {
-        width: 70px;
+        width: 16%;
     }
 
     .title {
@@ -98,13 +97,13 @@ img {
     }
   }
 
-  @media only screen and (max-width: 475px) {
+  /* @media only screen and (max-width: 475px) {
     
     img {
         width: 65px;
     }
 
-  }
+  } */
   @media only screen and (max-width: 440px) {
     
     img {
