@@ -7,13 +7,26 @@
 
 body {
     background-color: black;
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; */
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.center-screen {
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .eyes {
     width: 160px;
     margin-right: 15px;
@@ -25,6 +38,7 @@ body {
 }
 
 .menu {
+    width:10vw;
     margin-top: 5px;
     display:flex;
     flex-direction: column;
@@ -41,7 +55,7 @@ body {
 }
 
 #intro {
-    font-size: 18px;
+    font-size: 3vw;
     color: rgb(252, 134, 189);
     margin-top: 10px;
 }
@@ -62,8 +76,8 @@ ul {
 }
 
 .title {
-    font-size: 300%;
-    margin: 20px 0 10px 0;
+    font-size: 6vw;
+    /* margin: 20px 0 10px 0; */
 }
 
 .game {
