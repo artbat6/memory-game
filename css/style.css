@@ -28,12 +28,12 @@ body {
 }
 
 .eyes {
-    width: 160px;
+    width: 220px;
     margin-right: 15px;
 }
 
 .eyes-left {
-    width: 160px;
+    width: 220px;
     margin-left: 15px;
 }
 
@@ -47,8 +47,8 @@ body {
 }
 
 .game-size {
+    width: 300px;
     display: flex;
-
     list-style: none;
     font-size: 30px;
     margin: 20px;
@@ -61,6 +61,7 @@ body {
 }
 
 a {
+    font-size: 6vw;
     text-decoration: none;
     color: white;
     margin-top: 15px;
